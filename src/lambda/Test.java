@@ -3,7 +3,6 @@ package lambda;
 public class Test{
 	
 	public static void invoke(SimpleFuncInterface fun){
-		fun.implemented();
 		fun.doWork();
 	}
 
